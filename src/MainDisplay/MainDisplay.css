@@ -1,0 +1,65 @@
+body {
+    background-color: #134e13;
+}
+
+.main-display {
+    display: flex;
+    font-family: Georgia;
+}
+
+.container-header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 24px;
+
+    width: 100%;
+    min-height: 50px;
+    z-index: 999;
+    border-bottom:1px solid black;
+    background-color: #f5ead9;
+}
+
+.welcome-message {
+    font-style: italic;
+    margin: 10px;
+}
+
+.search-display {
+    margin: 10px;
+}
+
+.card-grid {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.loading-message {
+    position: fixed;
+    background: #ffffff;;
+    bottom:0;
+    right: 0;
+    font: 24px;
+}
+
+.no-cards-found {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 36px;
+    font-family:Georgia;
+    background:#f5ead9
+}
+
+@media screen and (max-width: 500px) {
+    .card-grid :first-child {
+        margin-top: 80px;
+    }
+}

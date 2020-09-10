@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+}
+
+.elderscroll-card {
+    font-size: 24px;
+    font-family: Georgia;
+    width: 400px;
+    flex-direction: row;
+    justify-content: center;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+    background-color: #f5ead9;
+}
+
+@media screen and (max-width: 499px) {
+    img.card-image {
+        width: 90vw;
+    }
+}
